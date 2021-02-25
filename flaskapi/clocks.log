@@ -1,0 +1,34 @@
+tp5000> [mshow ptp-status ioc-2
+
+ Grandmaster status information:
+
+ Port enabled	:     yes
+ Clock Id	:     00:B0:AE:FF:FE:02:93:4B
+ Addr mode	:     unicast
+ Port state	:     master
+ Clock class	:     locked to reference
+ Clock accuracy	:     unknown
+ Timescale	:     ARB
+ Num clients	:     174
+ Client load	:     34%
+ Packet load	:     0%
+
+
+tp5000> [mshow ptp-status ioc-1
+
+ Grandmaster status information:
+
+ Port enabled	:     yes
+ Clock Id	:     00:B0:AE:FF:FE:02:93:4A
+ Addr mode	:     unicast
+ Port state	:     master
+ Clock class	:     locked to reference
+ Clock accuracy	:     unknown
+ Timescale	:     ARB
+ Num clients	:     199
+ Client load	:     39%
+ Packet load	:     33%
+
+
+tp5000> [mlog[Kout 
+
