@@ -3,18 +3,20 @@
    <body>
       <table border = 1>
          <thead>
-            <td>Name</td>
-            <td>Address</td>
-            <td>City</td>
-            <td>Pincode</td>
+            <td>Brand</td>
+            <td>Colorway</td>
+            <td>Length</td>
+            <td>Weight</td>
+            <td>Qty</td>
          </thead>
          
          {% for row in rows %}
             <tr>
-               <td>{{ row["name"] }}</td>
-               <td>{{ row["addr"] }}</td>
-               <td>{{ row["city"] }}</td>
-               <td>{{ row["pin"] }}</td>	
+               <td>{{ row["br"] }}</td>
+               <td>{{ row["color"] }}</td>
+               <td>{{ row["ln"] }}</td>
+               <td>{{ row["wt"] }}</td>	
+               <td>{{ row["qty"] }}</td>	
             </tr>
          {% endfor %}
       </table>

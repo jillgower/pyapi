@@ -1,18 +1,20 @@
 <html>
    <body>
-      <form action = "{{ url_for('addrec') }}" method = "POST">
-         <h3>Student Information</h3>
-         Name:<br>
-         <input type = "text" name = "nm" /><br>
+      <form action = "{{ url_for('yarninv') }}" method = "POST">
+         <h3>Yarn Inventory</h3>
+         Brand:<br>
+         <input type = "text" name = "br" /><br>
          
-         Address:<br>
-         <textarea name = "addr" ></textarea><br>
+         Colorway:<br>
+         <textarea name = "color" ></textarea><br>
          
-         City:<br>
-         <input type = "text" name = "city" /><br>
+         Length:<br>
+         <input type = "text" name = "ln" /><br>
          
-         PINCODE<br>
-         <input type = "text" name = "pin" /><br>
+         Weight<br>
+         <input type = "text" name = "wt" /><br>
+         Qty<br>
+         <input type = "text" name = "qt" /><br>
          <input type = "submit" value = "submit" /><br>
       </form>
    </body>
